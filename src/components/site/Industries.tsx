@@ -19,7 +19,7 @@ export function Industries() {
         <div className="max-w-2xl mb-14">
           <span className="text-xs font-bold tracking-[0.25em] uppercase text-brand-orange">Industries We Serve</span>
           <h2 className="mt-3 text-3xl md:text-5xl font-bold">Built for every workplace in India.</h2>
-          <p className="mt-4 text-white/70 text-lg">From single-site contractors to multi-plant procurement teams — we tailor safety supply to your operations.</p>
+          <p className="mt-4 text-white/70 text-lg">From single-site contractors to multi-plant procurement teams, we tailor safety supply to your operations.</p>
         </div>
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-5">
           {items.map((i) => {

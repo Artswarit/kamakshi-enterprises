@@ -33,7 +33,7 @@ function StatCard({ s, visible }: { s: (typeof stats)[number]; visible: boolean 
       <div className={`h-12 w-12 rounded-lg bg-muted grid place-items-center mb-5 ${s.color} group-hover:scale-110 transition`}>
         <Icon className="h-6 w-6" />
       </div>
-      <div className="text-4xl md:text-5xl font-bold text-navy tabular-nums">
+      <div className="text-3xl sm:text-4xl md:text-5xl font-bold text-navy tabular-nums">
         {n.toLocaleString("en-IN")}
         <span className="text-primary">{s.suffix}</span>
       </div>
@@ -59,7 +59,7 @@ export function Stats() {
           <h2 className="mt-3 text-3xl md:text-5xl font-bold text-navy">Why workplace safety can't wait.</h2>
           <p className="mt-4 text-muted-foreground text-lg">Every statistic represents a worker, a family, and a business. Equipping your site is the first line of defense.</p>
         </div>
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6">
           {stats.map((s) => <StatCard key={s.label} s={s} visible={visible} />)}
         </div>
       </div>

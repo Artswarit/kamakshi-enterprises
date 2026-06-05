@@ -40,7 +40,7 @@ export function Footer() {
           ))}
           <div>
             <h4 className="font-semibold text-sm uppercase tracking-wider text-white mb-5">Newsletter</h4>
-            <p className="text-sm text-white/65 mb-4">Safety tips, compliance updates and product launches — once a month.</p>
+            <p className="text-sm text-white/65 mb-4">Safety tips, compliance updates and product launches sent once a month.</p>
             <form className="space-y-3">
               <input type="email" required placeholder="your@email.com" className="w-full h-11 px-4 rounded-md bg-white/10 border border-white/15 placeholder:text-white/40 focus:border-brand-orange outline-none text-sm" />
               <Button type="submit" className="w-full gradient-fire border-0 text-white font-semibold h-11">Subscribe</Button>
