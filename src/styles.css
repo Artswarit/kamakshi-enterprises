@@ -91,6 +91,11 @@
   html {
     scroll-behavior: smooth;
   }
+  #lovable-badge,
+  .lovable-badge,
+  [id*="lovable-badge"] {
+    display: none !important;
+  }
   * { border-color: var(--color-border); }
   body {
     background-color: var(--color-background);
