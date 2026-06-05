@@ -88,6 +88,13 @@
 }
 
 @layer base {
+  html,
+  body {
+    max-width: 100%;
+    overflow-x: clip;
+    overscroll-behavior-x: none;
+    position: relative;
+  }
   html {
     scroll-behavior: smooth;
   }
